@@ -1,0 +1,90 @@
+﻿a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #4472c4;
+  }
+  
+  html {
+    font-size: 12px;
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 520px) {
+    #principal.collapse {
+      display: block !important;
+    }
+  
+    #principal.collapse:not(.show) {
+      display: none !important;
+    }
+  }
+  
+  .box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: #f1f1f1;
+    height: 58px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58,59,69,.15);
+  }
+  
+  /* .barraHeader {
+    background: #4472c4;
+    height: 10px;
+  } */
+  .nav-item { font-size: small;}
+  ul.navbar-nav {
+      width: 80%;
+  }
+  .navbar {
+    padding: 0;
+    height: 3.8rem;
+  }
+  .border-vantaz {
+    border-bottom: 1px solid #bdc7d5;
+  }
+  a.SGP.navbar-brand {
+    /* color: #4472c4;
+    position: relative;
+    top: 8px; */
+  }
+  .icoNotificacion {
+    border-radius: 43px;
+    border: 3px solid #f4f4f4;
+    padding: 2px 5px;
+    height: 33px;
+    position: relative;
+    top: 14px;
+  }
+  .icoNotificacion span {
+    color: #4472c4;
+  }
+  .icoBuscar {
+    border-radius: 43px;
+    border: 3px solid #fff;
+    padding: 2px 5px;
+    height: 33px;
+    position: relative;
+    top: 14px;
+    background: #e7e6e6;
+  }
+  .icoBuscar span {
+  }
+  .inputBuscador {
+    height: 24px;
+    position: relative;
+    top: 19px;
+    padding: 5px 15px;
+    font-size: 0.8em;
+    margin-right: 5px;
+  }
+  

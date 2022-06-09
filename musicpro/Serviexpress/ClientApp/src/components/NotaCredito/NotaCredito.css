@@ -1,0 +1,55 @@
+.fondoOP{
+    background: white;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 91%;
+    height: auto;
+    position: fixed;
+    top: 5%;
+    left: 9%;
+    padding: 2%;
+}
+
+.TituloBoleta{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid;
+    text-align: -webkit-center;
+}
+
+.centrado{
+    text-align: -webkit-center;
+}
+.bordeArribaAbajo{
+    border-top: double;
+    border-bottom: double;
+}
+.bordeAbajo{
+    border-bottom: double;
+}
+.fondonota{
+    background: rgb(189, 63, 5);
+    text-align: center;
+    color: white;
+    width: 106%;
+}
+.fondonota2{
+    background: rgb(189, 63, 5);
+    color: white;
+    width: 106%;
+    height: 40px;
+}
+.textoazul{
+    text-align: center;
+}
+.textoNota{
+    color: rgb(189, 63, 5);
+    font-size: xxx-large;
+    float: right;
+}
+
+.botoneraAnular{
+    width: fit-content;
+    display: inline-block;
+    border: groove;
+}

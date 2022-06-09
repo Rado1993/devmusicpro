@@ -1,0 +1,62 @@
+/*.tituloHome{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 27px;
+}
+.agrandar{
+    margin-left: -30%;
+}
+.colorLetras{
+    background: white;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 9%;
+    padding: 2%;
+}
+.titSistema { font-size: 1.5em; color: #0078d4;}
+.tablaIndicador { border: none; margin-bottom: auto;}
+.tablaIndicador th { border-bottom: none !important; text-align: center; width: 33%;}
+.tablaIndicador td { border-top: none !important; text-align: center;}
+.fondoIndicadores { background: #eeeef0; }
+.badgefondoAmarillo { background: #efc807;}
+.titTablaIndicador { padding: 1px 8px 3px 8px; color: #fff; font-size: 0.88em;}
+.fondoVerdeTit { background: #28a745;}
+.fondoAmarilloTit { background: #efc807;}
+.fondoAzulTit { background: #007bff;}
+.active {border-bottom: 3px solid #007bff; color: #007bff;}
+.active {border-bottom: 3px solid #007bff; color: #007bff;}
+.tablaIndicador .textIndicador { font-size: 1.3em; vertical-align: middle;}
+#prueba {overflow-y: auto; overflow-x: hidden; max-height: 157px;}*/
+
+
+
+.logoHome { width: 50%; margin-left: 15%;}
+.titSistema { font-size: 1.5em; color: #0078d4;}
+.tablaIndicador { border: none; margin-bottom: auto;}
+.tablaIndicador th { border-bottom: none !important; text-align: center; width: 33%;}
+.tablaIndicador td { border-top: none !important; text-align: center;}
+.fondoIndicadores { background: #eeeef0; }
+.badgefondoAmarillo { background: #efc807;}
+.titTablaIndicador { padding: 1px 8px 3px 8px; color: #fff; font-size: 0.88em;}
+.fondoVerdeTit { background: #28a745;}
+.fondoAmarilloTit { background: #efc807;}
+.fondoAzulTit { background: #007bff;}
+.active {border-bottom: 3px solid #d14b4b; color: #d14b4b;}
+.tablaIndicador .textIndicador { font-size: 1.3em; vertical-align: middle;}
+#prueba {overflow-y: auto; overflow-x: hidden; max-height: 157px;}
+.titHome { color: #2b78bb; text-align: center; font-family: monospace;}
+.titSistemaVTZ{font-family: -webkit-pictograph; font-size: x-large;}
+.divtitulo2 {
+    color: #2f5597;
+    text-align: center;
+    font: caption;
+    font-size: 150px;
+    text-shadow: 0px 0px 10px #72daf9;
+    margin-top: 2%;
+    margin-left: -20%;
+}

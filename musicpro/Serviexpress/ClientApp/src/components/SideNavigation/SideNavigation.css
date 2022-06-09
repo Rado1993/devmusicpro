@@ -1,0 +1,190 @@
+.sideBarMenuContainer {
+    position: fixed;
+    height: 100%;
+    z-index: 10;
+    margin-top: -85px;
+    
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand
+{
+    margin-left:0px !important;
+}
+
+.userMenu {
+    width: 100%;
+    /* text-align: center; */
+    margin-right: 0px;
+    margin-left: 0px;    
+    margin-top: 0px;
+}
+
+nav.sidebar :global(.navbar-brand) :global(.glyphicon) {
+    margin-right: 0px;
+}
+
+
+/*Remove rounded coners*/
+nav.sidebar.:global(navbar) {
+    border-radius: 0px;
+}
+
+nav.sidebar {
+    -webkit-transition: margin 200ms ease-out;
+    -moz-transition: margin 200ms ease-out;
+    -o-transition: margin 200ms ease-out;
+    transition: margin 200ms ease-out;
+    display:block;
+    height: 100%;
+    position: relative;
+    top: 1px;
+    border-radius: inherit;
+}
+
+.collapse{
+    display: block !important;
+}
+.navbar-brand{
+    padding: 0 !important;
+}
+
+/* .....NavBar: Icon only with coloring/layout.....*/
+@media(min-width:360px){
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+/*small/medium side display*/
+@media ( min-width : 768px) {
+
+    
+    /*Center Brand*/
+    nav.sidebar.:global(navbar).sidebar>.container :global(.navbar-brand), :global(.navbar)>:global(.container-fluid) :global(.navbar-brand)
+        {
+        margin-left: 0px;
+    }
+    /*Center Brand*/
+    nav.sidebar :global(.navbar-brand), nav.sidebar :global(.navbar-header) {
+        
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    /*Center Icons*/
+    nav.sidebar a {
+        padding-right: 0px;
+    }
+
+    /*adds border top to first nav box */
+    nav.sidebar :global(.navbar-nav)>li:first-child {
+        border-top: 1px #e5e5e5 solid;
+    }
+
+    /*adds border to bottom nav boxes*/
+    nav.sidebar :global(.navbar-nav)>li {
+        border-bottom: 1px #e5e5e5 solid;
+    }
+
+    /* Colors/style dropdown box*/
+    nav.sidebar :global(.navbar-nav) :global(.open) :global(.dropdown-menu) {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    /*allows nav box to use 100% width*/
+    nav.sidebar :global(.navbar-collapse), nav.sidebar :global(.container-fluid) {
+        padding: 0 0px 0 0px;
+    }
+
+    /*colors dropdown box text */
+    :global(.navbar-inverse) :global(.navbar-nav) :global(.open) :global(.dropdown-menu)>li>a {
+        color: #777;
+    }
+
+    /*gives sidebar width/height*/
+    nav.sidebar {
+        width: 70%;
+        height: 100%;
+        margin-left: -160px;
+        float: left;
+        z-index: 2;
+        margin-bottom: 0px;
+    }
+
+    /*give sidebar 100% width;*/
+    nav.sidebar li {
+        width: 100%;
+    }
+
+    /* Move nav to full on mouse over*/
+    nav.sidebar:hover {
+        margin-left: 0px;
+    }
+    /*for hiden things when navbar hidden*/
+    :global(.forAnimate) {
+        opacity: 0;
+    }
+}
+
+/* .....NavBar: Fully showing nav bar..... */
+@media ( min-width : 1330px) {
+
+    /*Show all nav*/
+    nav.sidebar {
+        margin-left: 0px;
+        float: left;
+    }
+    /*Show hidden items on nav*/
+    nav.sidebar :global(.forAnimate) {
+        opacity: 1;
+    }
+}
+
+nav.sidebar :global(.navbar-nav) :global(.open) :global(.dropdown-menu)>li>a:hover, nav.sidebar :global(.navbar-nav) :global(.open) :global(.dropdown-menu)>li>a:focus
+    {
+    color: #CCC;
+    background-color: transparent;
+}
+
+nav:hover :global(.forAnimate) {
+    opacity: 1;
+}
+
+section {
+    padding-left: 15px;
+}
+a.navbar-brand {
+    margin-bottom: -20px;
+}
+.navbar-text {text-align: left;}
+.navbar-text span { margin-left: 4px; font-size: 0.62em;}
+.navbar-collapse {padding-left: 0; padding-right: 0;}
+.navbar-toggler {border:  none;}
+p.userMenu.navbar-text {padding: 0; color: #2f5597;}
+p.userMenu.navbar-text a:hover { color: #1373da;}
+p.userMenu.navbar-text a { color: #2f5597; line-height: 11px; word-break: break-word; text-align: left; display: flex;}
+.container-fluid button { border: none; padding: 0;}
+
+button:focus {outline:  none;}
+.logoVantaz { margin: 0; width: 100%; background: #2f5597; padding: 4px 6px; position: relative; top: -1px; border-bottom: 5px solid #4472c4; border-top: 10px solid #4472c4;}
+.logoVantaz img { 
+    position: relative;
+    left: 5%;
+    width: 80%;
+}
+.marginMenu { }
+nav.sidebar { background:  #ebebeb;}
+
+.navbar-default .navbar-brand:focus { color: #007bff;}
+.navbar-brand, .navbar-nav>li>a { text-shadow: none;}
+.Opcionmenu{
+    font-size: 14px;
+    margin-top: 5%;
+}

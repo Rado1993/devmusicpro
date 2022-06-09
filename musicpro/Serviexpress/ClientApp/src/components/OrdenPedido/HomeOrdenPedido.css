@@ -1,0 +1,152 @@
+.tituloOP{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 27px;
+}
+
+.buttonDerecha{
+    float: right;
+}
+
+.titGrilla {
+    width: 95%; 
+    margin: 4px auto; 
+    color: #0276cf; 
+    margin-bottom: 8px; 
+    font-family: calibri, Arial; 
+    font-weight: lighter;}
+
+.iconoRuta{
+    color: #5B9BD5;
+    font-size: 0.8em;
+    position: relative;
+    top: 7px;
+}
+
+.tituloOrdenOP{
+    font-size: 1.8em; 
+    color: #4472c4; 
+    font-weight: lighter; 
+    border-bottom: 3px solid #ff0000; 
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.tituloDatosOrden{
+    border-bottom: 1px solid #dee2e6 !important;
+    color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+    margin-top: 30px;
+    font-size: 17px;
+
+}
+
+.botoneraOP{
+    display: grid;
+}
+
+.menuLateral{
+
+}
+
+.fondoOP{
+    background: white;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 91%;
+    height: auto;
+    position: fixed;
+    top: 5%;
+    left: 9%;
+    padding: 2%;
+}
+
+.botonCrear{float: right;}
+.iconoRojo{color: red;}
+
+
+
+.tituloOP{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 27px;
+}
+
+.buttonDerecha{
+    float: right;
+}
+
+.titGrilla {
+    width: 95%; 
+    margin: 4px auto; 
+    color: #0276cf; 
+    margin-bottom: 8px; 
+    font-family: calibri, Arial; 
+    font-weight: lighter;}
+
+.iconoRuta{
+    color: #5B9BD5;
+    font-size: 0.8em;
+    position: relative;
+    top: 7px;
+}
+
+.tituloOrdenOP{
+    font-size: 1.8em; 
+    color: #4472c4; 
+    font-weight: lighter; 
+    border-bottom: 3px solid #ff0000; 
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.tituloDatosOrden{
+    border-bottom: 1px solid #dee2e6 !important;
+    color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+    margin-top: 30px;
+    font-size: 17px;
+
+}
+
+.tituloHome{
+    font-size: 2.7em;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #449ad6;
+}
+
+.botoneraOP{
+    display: grid;
+}
+
+.fondoOP{
+    background: white;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 91%;
+    height: auto;
+    position: fixed;
+    top: 5%;
+    left: 9%;
+    padding: 2%;
+}
+
+.iconoVer{
+    
+}
+.iconoSin{color: grey;}
+.iconoBol{color: green;}
+.iconoFact{color: blue;}
+.iconoAnular{color: red;}
+
+.aprobada{
+    float: right;
+    font-size: x-large;
+    color: blue !important;
+    margin-top: 5rem;
+    margin-right: 2rem;
+}

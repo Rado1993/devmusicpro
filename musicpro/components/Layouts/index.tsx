@@ -46,7 +46,7 @@ const LayoutPage: React.FC<LayoutProps> = ({ children, toast, ...rest }) => {
   const msgRef = useRef<ToastrRef>(null);
 
   const getState = (state?: 'hidden' | 'visible' | 'compacted' | 'expanded') => {
- 
+
   };
 
   const changeTheme = (newTheme: DefaultTheme['name']) => {
@@ -88,12 +88,12 @@ const LayoutPage: React.FC<LayoutProps> = ({ children, toast, ...rest }) => {
         <Fragment>
           <SimpleLayout />
           <Layout evaIcons={icons} dir={dir} className={!authLayout ? 'auth-layout' : ''}>
-              <Header
-                dir={dir}
-                changeDir={changeDir}
-                theme={{ set: changeTheme, value: theme }}
-                toggleSidebar={() => sidebarRef.current?.toggle()}
-              />
+            <Header
+              dir={dir}
+              changeDir={changeDir}
+              theme={{ set: changeTheme, value: theme }}
+              toggleSidebar={() => sidebarRef.current?.toggle()}
+            />
             <LayoutContainer>
               <Toastr ref={msgRef} />
               {!authLayout && (
@@ -108,13 +108,13 @@ const LayoutPage: React.FC<LayoutProps> = ({ children, toast, ...rest }) => {
                 >
                   <SidebarBody>
                     <Menu
-                     nextJs
-                     className="sidebar-menu"
-                     Link={Link}
-                     ref={menuRef}
-                     items={menu}
-                     currentPath={router.pathname}
-                     toggleSidebar={() => sidebarRef.current?.hide()}
+                      nextJs
+                      className="sidebar-menu"
+                      Link={Link}
+                      ref={menuRef}
+                      items={menu}
+                      currentPath={router.pathname}
+                      toggleSidebar={() => sidebarRef.current?.hide()}
                     />
                   </SidebarBody>
                   <br /><br />
@@ -124,8 +124,8 @@ const LayoutPage: React.FC<LayoutProps> = ({ children, toast, ...rest }) => {
                 <LayoutColumns>
                   <LayoutColumn className="main-content">{children}</LayoutColumn>
                 </LayoutColumns>
-                {!authLayout && <LayoutFooter>Diseñada por{' '}
-          <b>"MugglesTeam"</b></LayoutFooter>}
+                {!authLayout && <LayoutFooter>Diseñada por
+                  <b>MugglesTeam</b></LayoutFooter>}
               </LayoutContent>
             </LayoutContainer>
           </Layout>

@@ -1,0 +1,154 @@
+.buttons{
+    width: 200px;
+    margin-right: 5px;
+    
+  }
+  .contenedorButtons{
+    display:"flex"
+  }
+  .margin{
+  margin-top: 29px;
+  }
+  .tabs1{
+  width: 100%;
+  }
+  .tabs{
+  width: 20%;
+  text-align: center;
+  border-bottom: #0276cf 2px solid;
+  }
+  .buttonDerecha{
+  float: right;
+  }
+  
+  .pagination {
+  margin-top: 25px;
+  /*margin-bottom: -11px;*/
+  display: inline-block;
+  
+  }
+  .pagination li {
+  cursor: pointer;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  width: 60px;
+  }
+  
+  .pageitem{
+  list-style-type: none;
+  }
+  
+  .page{    
+  width: 20px;
+  text-align: center;
+  border: solid;
+  list-style-type: none;
+  }
+  
+  /* .pagination li.active {
+  background-color: rgb(73, 130, 5);
+  color: white;
+  border: 1px solid rgb(73, 130, 5);
+  } */
+  
+  /* .active{
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+  background-color:rgb(73, 130, 5);
+  color: white;
+  border: 1px solid rgb(73, 130, 5);
+  } */
+  
+  /*.grilla {
+    margin-left: 4%;
+    width: 100%; 
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    margin-top: 10px;
+  }
+  .grilla thead th { text-transform: uppercase;font-weight: normal; border-bottom: 1px solid #eaeaea; color: #fff; height: 33px; text-align: left;background: #808080;}
+  .grilla tbody { height: 40px; font-size: 1em;}
+  .grilla tbody td { height: 33px; font-size: 1em;}
+  .grilla tr:last-child { border-bottom: 1px solid #eaeaea;}*/
+  .buttonprimary{ margin-top: 26px;}
+  
+  
+  .pagination {
+    margin-top: 25px;
+    /*margin-bottom: -11px;*/
+    display: inline-block;
+  }
+  .pagination li {
+  cursor: pointer;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  }
+  
+  .titMantenedor { margin: 10px auto 0 auto; margin-bottom: 17px; font-family: calibri, Arial; font-weight: lighter;}
+  .pageitem{
+    list-style-type: none;
+  }
+  
+  .page{    
+    width: 45px;
+    /*height: 25px;*/
+    text-align: center;
+    border: solid 1px solid #d2d2d2;
+    list-style-type: none;
+    padding-top: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination li.active {
+  background-color:#c6ddf2;
+  color: white;
+  border: 1px solid #c6ddf2;
+  }
+  
+  /* .active{
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+  height: 35px;
+  background-color:#c6ddf2;
+  color: white;
+  border: 1px solid #c6ddf2;
+  padding-top: 4px;
+  cursor: pointer;
+  }   */
+  
+  .btnTipoTab {background: none;}
+  
+  .btnTipoTab > div { border-bottom: 1px solid #cecece; display: contents;}
+  
+  .btnTipoTab button.ms-Pivot-link { border: 1px solid #cecece;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    background: #ffffff8c;
+    font-size: 0.8rem;
+    padding: 0 0.6rem;
+    margin-bottom: 10px;}
+
+  .fondoMantenedores{
+    background: white;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 91%;
+    height: auto;
+    position: fixed;
+    top: 5%;
+    left: 9%;
+    padding: 2%;
+}
+.titulosOpciones{
+  border-bottom: inset;
+}

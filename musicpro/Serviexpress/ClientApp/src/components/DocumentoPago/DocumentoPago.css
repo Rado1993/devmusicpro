@@ -1,0 +1,15 @@
+.tituloHome{
+    font-size: 2.7em;
+    font-weight: lighter;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #449ad6;
+}
+
+.iconoBol{color:#26c313;}
+.iconoFact{color: blue;}
+.iconoAnular{color: red;}
+.colorVerde{color: green;}
+.colorBlanco{background-color:#ebebeb; color: green;}
+.botonExportar{border: violet;}
+.colorBlanco :over{background-color: violet;}

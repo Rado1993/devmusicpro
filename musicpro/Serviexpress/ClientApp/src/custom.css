@@ -1,0 +1,40 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: red;
+}
+body {
+  background-color: #fff;
+}
+.container-fluid { padding: 0;}
+.row { margin-left: 0; margin-right: 0;}
+.col:first-child { padding-left: 0; padding-right: 0;}
+
+.margenTop {
+  position: relative;
+  top: 60px;
+}
+
+.tableAnexo {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.tableAnexo tr.encabezado{
+  background:#f1f1f1;
+  border-bottom: 1px solid #999;
+}
+.tableAnexo td{
+  padding: 5px;
+}
+.navmenumargen{
+  margin-top: -1%;
+}

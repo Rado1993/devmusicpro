@@ -1,0 +1,215 @@
+.reembolsable {
+    margin-top: 35px;
+}
+
+.fijado {
+    margin-right: 20px;
+}
+
+.login {
+    margin: 10%;
+}
+
+.botonera2 {
+    margin-top: 15px;
+    display: grid;
+    margin-bottom: 15px;
+}
+
+body {
+    background: url("../img/Fondo.jpg");
+}
+
+.contenedorLogin {
+    width: 40%;
+    margin: 15% auto;
+    background: white;
+    display: flow-root;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+html {
+    font-size: 14px;
+}
+
+/* @media (min-width: 768px) {
+    html { font-size: 16px; }
+} */
+
+/* .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); } */
+
+header {
+    margin-top: 1%;
+    margin-right: -100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font: caption;
+    font-size: 100px;
+    margin-top: 15%;
+}
+
+.divtitulo {
+    color: white;
+    text-align: center;
+    font: caption;
+    font-size: 150px;
+    text-shadow: 0px 0px 10px #72daf9;
+    margin-top: 20rem;
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.home {
+    margin: 0 -25%;
+}
+
+nav.navbar-expand-sm.navbar-toggleable-sm.border-bottom.box-shadow.mb-3.navbar.navbar-light {
+    border-bottom: none !important;
+}
+
+.texto-clientes {
+    text-align: center;
+    color: #0078d4;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.contenedorCrear {
+    margin: 0 auto;
+    background: white;
+    display: flow-root;
+    padding: 2%;
+    width: 50%;
+}
+
+.crear {
+    margin: 2%;
+    display: inline-block;
+}
+
+.titulos-cliente {
+    color: #066bb8;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.botones {
+    float: right;
+    margin: 15px;
+}
+
+.tituloCrearCliente {
+    text-align: center;
+    border-bottom: inset;
+    color: darkslateblue;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.contenedorReserva {
+    margin: 15% auto;
+    background: white;
+    display: flow-root;
+    padding: 2%;
+    width: 40%
+}
+
+.tituloServicios {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2%;
+}
+
+.textoServicios {
+    color: #cfcdcd;
+    text-align: center;
+    font-size: 22px;
+}
+
+.listaServicios {
+    display: grid;
+    color: white;
+    font-size: 20px;
+    padding: 15%;
+    place-items: center;
+    cursor: pointer;
+}
+
+.cajaServicios {
+    display: list-item;
+    text-align: center;
+}
+
+.textoNosotros {
+    color: #cfcdcd;
+    text-align: center;
+    font-size: 22px;
+    display: flex;
+    margin-top: 30px;
+    padding: 35px;
+}
+
+.menuSuperior {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.textmenu {
+    font-size: 30px;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.textmenuselect {
+    font-size: 50px;
+    color: rgb(0, 157, 219);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.precioOferta{
+    color: red;
+}
+.precioNormal{
+    color: #a9a9a9 !important;
+    text-decoration:line-through;
+    margin-right: 10px;
+}
+
+.logoCarrito{
+    display: contents;
+}
+
+.totalCarrito{
+    color:white !important;
+}

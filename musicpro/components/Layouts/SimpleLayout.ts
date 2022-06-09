@@ -426,8 +426,4 @@ ${({ theme }) => css`
 `}
 `;
 
-/*
-background-position: center center; 
-background-size: 100% 100%; 
-*/
 export default SimpleLayout;
